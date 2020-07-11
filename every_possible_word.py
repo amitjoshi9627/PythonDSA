@@ -1,7 +1,5 @@
 
 def is_valid(ans, a):
-    # print(arr, a)
-
     return tuple(a) not in ans
 
 
@@ -20,5 +18,4 @@ s = list(s)
 c = [0]
 ans = set()
 solve(s, ans, c, 0)
-# solve(s[::-1], '', ans, 0, c)
 print(c[0], ans)
